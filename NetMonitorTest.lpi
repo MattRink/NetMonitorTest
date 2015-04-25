@@ -37,7 +37,6 @@
       <Unit0>
         <Filename Value="NetMonitorTest.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="NetMonitorTest"/>
       </Unit0>
       <Unit1>
         <Filename Value="unit1.pas"/>
@@ -67,12 +66,6 @@
         </Win32>
       </Options>
     </Linking>
-    <Other>
-      <CompilerMessages>
-        <MsgFileName Value=""/>
-      </CompilerMessages>
-      <CompilerPath Value="$(CompPath)"/>
-    </Other>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="3">

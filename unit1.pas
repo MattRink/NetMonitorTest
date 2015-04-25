@@ -47,6 +47,7 @@ end;
 
 procedure TForm1.SnifferHandler(ASecondsSinceStart : double; ALength : integer);
 begin
+  Form1.Log('--------------------------------------------------------------------------', ASecondsSinceStart);
   Form1.Log(Format('Packet recieved - Length: %d bytes', [ALength]), ASecondsSinceStart);
 end;
 
