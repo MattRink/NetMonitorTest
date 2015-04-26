@@ -33,7 +33,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="2">
+    <Units Count="4">
       <Unit0>
         <Filename Value="NetMonitorTest.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -46,6 +46,16 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Services"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\NetMonitor\logger.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Logger"/>
+      </Unit3>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -60,6 +70,9 @@
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
+      <Debugging>
+        <UseHeaptrc Value="True"/>
+      </Debugging>
       <Options>
         <Win32>
           <GraphicApplication Value="True"/>

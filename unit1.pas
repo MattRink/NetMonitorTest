@@ -24,6 +24,8 @@ type
     procedure SnifferHandler(ASecondsSinceStart : double; ALength : integer);
   private
     { private declarations }
+    FSniffer : TSniffer;
+
     procedure Start;
     procedure Stop;
   public
@@ -53,14 +55,14 @@ end;
 
 procedure TForm1.Start;
 begin
-  TheSniffer.Start;
-  Log('Starting sniffing on: ' + StrPas(TheSniffer.PcapDevice), 0.0);
+  FSniffer.Start;
+  Log('Starting sniffing on: ' + StrPas(FSniffer.PcapDevice), 0.0);
 end;
 
 procedure TForm1.Stop;
 begin
-  Log('Stopping sniffing on: ' + StrPas(TheSniffer.PcapDevice), TheSniffer.SecondsSinceStart);
-  TheSniffer.Stop;
+  Log('Stopping sniffing on: ' + StrPas(FSniffer.PcapDevice), FSniffer.SecondsSinceStart);
+  FSniffer.Stop;
 end;
 
 procedure TForm1.Button1Click(Sender: TObject);
@@ -81,9 +83,10 @@ end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
-  TheSniffer.Handler := @SnifferHandler;
-  TheSniffer.Logger := @Log;
-  TheSniffer.Setup;
+  FSniffer := TSniffer.Create(self);
+  FSniffer.Handler := @SnifferHandler;
+  FSniffer.Logger := @Log;
+  FSniffer.Setup;
 end;
 
 end.
