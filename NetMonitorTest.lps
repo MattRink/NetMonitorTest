@@ -4,12 +4,12 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="16">
+    <Units Count="17">
       <Unit0>
         <Filename Value="NetMonitorTest.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="96"/>
+        <UsageCount Value="108"/>
       </Unit0>
       <Unit1>
         <Filename Value="unit1.pas"/>
@@ -18,229 +18,255 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
-        <TopLine Value="43"/>
-        <CursorPos X="71" Y="64"/>
-        <UsageCount Value="96"/>
+        <TopLine Value="46"/>
+        <CursorPos Y="65"/>
+        <UsageCount Value="108"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Services"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="189"/>
+        <CursorPos Y="207"/>
+        <UsageCount Value="50"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\NetMonitor\logger.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Logger"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="52" Y="11"/>
+        <UsageCount Value="45"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
         <Filename Value="..\NetMonitor\daemon.pas"/>
         <ComponentName Value="NetMonitorDaemon"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <TopLine Value="13"/>
         <CursorPos X="22" Y="24"/>
-        <UsageCount Value="3"/>
-      </Unit2>
-      <Unit3>
+        <UsageCount Value="2"/>
+      </Unit4>
+      <Unit5>
         <Filename Value="..\NetMonitor\mapper.pas"/>
         <ComponentName Value="NetMonitorMapper"/>
         <HasResources Value="True"/>
         <CursorPos X="5" Y="28"/>
-        <UsageCount Value="3"/>
-      </Unit3>
-      <Unit4>
+        <UsageCount Value="2"/>
+      </Unit5>
+      <Unit6>
         <Filename Value="..\..\Lazarus\components\lazutils\lazfileutils.pas"/>
         <TopLine Value="29"/>
         <CursorPos X="31" Y="49"/>
-        <UsageCount Value="3"/>
-      </Unit4>
-      <Unit5>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <UnitName Value="Sniffer"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <UsageCount Value="46"/>
-        <Loaded Value="True"/>
-      </Unit5>
-      <Unit6>
-        <Filename Value="..\..\Lazarus\fpc\2.6.4\source\packages\pcap\src\pcap.pp"/>
-        <UnitName Value="Pcap"/>
-        <EditorIndex Value="4"/>
-        <UsageCount Value="46"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="2"/>
       </Unit6>
       <Unit7>
-        <Filename Value="..\..\Lazarus\fpc\2.6.4\source\rtl\win\sockets.pp"/>
-        <TopLine Value="253"/>
-        <UsageCount Value="5"/>
+        <Filename Value="..\NetMonitor\sniffer.pas"/>
+        <UnitName Value="Sniffer"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="33" Y="11"/>
+        <UsageCount Value="52"/>
+        <Loaded Value="True"/>
       </Unit7>
       <Unit8>
+        <Filename Value="..\..\Lazarus\fpc\2.6.4\source\packages\pcap\src\pcap.pp"/>
+        <UnitName Value="Pcap"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="52"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\Lazarus\fpc\2.6.4\source\rtl\win\sockets.pp"/>
+        <TopLine Value="253"/>
+        <UsageCount Value="4"/>
+      </Unit9>
+      <Unit10>
         <Filename Value="..\..\Lazarus\fpc\2.6.4\source\rtl\inc\socketsh.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="39"/>
         <CursorPos X="10" Y="57"/>
-        <UsageCount Value="14"/>
-      </Unit8>
-      <Unit9>
+        <UsageCount Value="13"/>
+      </Unit10>
+      <Unit11>
         <Filename Value="..\..\Lazarus\lcl\interfacebase.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="12"/>
         <CursorPos X="58" Y="30"/>
-        <UsageCount Value="6"/>
-      </Unit9>
-      <Unit10>
+        <UsageCount Value="5"/>
+      </Unit11>
+      <Unit12>
         <Filename Value="..\..\Lazarus\lcl\interfaces\win32\win32wsdialogs.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="16"/>
         <CursorPos X="3" Y="35"/>
-        <UsageCount Value="6"/>
-      </Unit10>
-      <Unit11>
+        <UsageCount Value="5"/>
+      </Unit12>
+      <Unit13>
         <Filename Value="..\..\Lazarus\lcl\lclproc.pas"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="6"/>
-      </Unit11>
-      <Unit12>
+        <UsageCount Value="5"/>
+      </Unit13>
+      <Unit14>
         <Filename Value="..\..\Lazarus\components\debuggerintf\dbgintfdebuggerbase.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="21"/>
         <CursorPos X="3" Y="39"/>
-        <UsageCount Value="6"/>
-      </Unit12>
-      <Unit13>
-        <Filename Value="..\..\Lazarus\lcl\maps.pp"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="6"/>
-      </Unit13>
-      <Unit14>
-        <Filename Value="..\NetMonitor\services.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="Services"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="51"/>
-        <CursorPos Y="61"/>
-        <UsageCount Value="38"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="5"/>
       </Unit14>
       <Unit15>
-        <Filename Value="..\NetMonitor\logger.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="Logger"/>
-        <EditorIndex Value="2"/>
-        <CursorPos X="52" Y="11"/>
-        <UsageCount Value="33"/>
-        <Loaded Value="True"/>
+        <Filename Value="..\..\Lazarus\lcl\maps.pp"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="5"/>
       </Unit15>
+      <Unit16>
+        <Filename Value="..\NetMonitor\networkutils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="NetworkUtils"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="22"/>
+        <CursorPos X="20" Y="15"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit16>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="484" Column="18" TopLine="459"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="169" TopLine="162"/>
       </Position1>
       <Position2>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="171" TopLine="162"/>
       </Position2>
       <Position3>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="106" Column="20" TopLine="81"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="169" TopLine="162"/>
       </Position3>
       <Position4>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="116" Column="89" TopLine="91"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="171" TopLine="162"/>
       </Position4>
       <Position5>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="128" Column="20" TopLine="103"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="169" TopLine="162"/>
       </Position5>
       <Position6>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="138" Column="89" TopLine="113"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="171" TopLine="162"/>
       </Position6>
       <Position7>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="152" Column="20" TopLine="127"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="175" TopLine="162"/>
       </Position7>
       <Position8>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="177" Column="67" TopLine="153"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="176" TopLine="162"/>
       </Position8>
       <Position9>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="296" Column="30" TopLine="271"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="177" TopLine="162"/>
       </Position9>
       <Position10>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="297" Column="20" TopLine="272"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="178" TopLine="162"/>
       </Position10>
       <Position11>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="380" Column="22" TopLine="358"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="179" TopLine="162"/>
       </Position11>
       <Position12>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="480" Column="3" TopLine="465"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="180" TopLine="162"/>
       </Position12>
       <Position13>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="481" Column="18" TopLine="465"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="182" TopLine="162"/>
       </Position13>
       <Position14>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="482" Column="18" TopLine="465"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="188" TopLine="164"/>
       </Position14>
       <Position15>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="487" Column="51" TopLine="465"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="190" TopLine="172"/>
       </Position15>
       <Position16>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="483" Column="51" TopLine="458"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="192" TopLine="175"/>
       </Position16>
       <Position17>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="496" TopLine="479"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="193" TopLine="175"/>
       </Position17>
       <Position18>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="498" TopLine="479"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="195" TopLine="178"/>
       </Position18>
       <Position19>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="496" TopLine="479"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="196" TopLine="178"/>
       </Position19>
       <Position20>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="498" TopLine="479"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="197" TopLine="178"/>
       </Position20>
       <Position21>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="500" TopLine="479"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="198" TopLine="178"/>
       </Position21>
       <Position22>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="501" TopLine="479"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="199" TopLine="178"/>
       </Position22>
       <Position23>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="503" Column="19" TopLine="479"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="200" TopLine="178"/>
       </Position23>
       <Position24>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="201" TopLine="178"/>
       </Position24>
       <Position25>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="154" Column="19" TopLine="129"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="202" TopLine="184"/>
       </Position25>
       <Position26>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="464" Column="29" TopLine="439"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="203" TopLine="184"/>
       </Position26>
       <Position27>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="204" TopLine="184"/>
       </Position27>
       <Position28>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="154" Column="36" TopLine="129"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="205" TopLine="184"/>
       </Position28>
       <Position29>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="206" TopLine="184"/>
       </Position29>
       <Position30>
-        <Filename Value="..\NetMonitor\sniffer.pas"/>
-        <Caret Line="504" TopLine="489"/>
+        <Filename Value="..\NetMonitor\services.pas"/>
+        <Caret Line="207" Column="46" TopLine="184"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\NetMonitor\services.pas"/>
+        <Line Value="207"/>
+      </Item1>
+    </BreakPoints>
+  </Debugging>
 </CONFIG>

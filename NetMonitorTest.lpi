@@ -33,7 +33,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="4">
+    <Units Count="5">
       <Unit0>
         <Filename Value="NetMonitorTest.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -56,6 +56,11 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="Logger"/>
       </Unit3>
+      <Unit4>
+        <Filename Value="..\NetMonitor\networkutils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="NetworkUtils"/>
+      </Unit4>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
