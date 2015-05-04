@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  ExtCtrls, DaemonApp, Sniffer;
+  ExtCtrls, DaemonApp, Sniffer, Logger;
 
 type
 
@@ -25,11 +25,13 @@ type
   private
     { private declarations }
     FSniffer : TSniffer;
+    FLogger : TLogger;
 
     procedure Start;
     procedure Stop;
   public
     { public declarations }
+    procedure Recorder(AMessage : String);
     procedure Log(AMessage : String; ASecondsSinceStart : double);
   end;
 
@@ -42,9 +44,14 @@ implementation
 
 { TForm1 }
 
+procedure TForm1.Recorder(AMessage : String);
+begin
+  Memo1.Lines.Add(AMessage);
+end;
+
 procedure TForm1.Log(AMessage : String; ASecondsSinceStart : double);
 begin
-  Memo1.Append(Format('%.3f: %s', [ASecondsSinceStart, AMessage]));
+  FLogger.Log(Format('%.3f: %s', [ASecondsSinceStart, AMessage]));
 end;
 
 procedure TForm1.SnifferHandler(ASecondsSinceStart : double; ALength : integer);
@@ -78,14 +85,20 @@ end;
 procedure TForm1.FormClose(Sender: TObject; var CloseAction: TCloseAction);
 begin
   Stop;
+
+  FLogger.Terminate;
+
   CloseAction := caFree;
 end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
+  FLogger := TLogger.Create;
+  FLogger.AddRecorder(@Recorder);
+
   FSniffer := TSniffer.Create(self);
   FSniffer.Handler := @SnifferHandler;
-  FSniffer.Logger := @Log;
+  FSniffer.Logger := FLogger;
   FSniffer.Setup;
 end;
 
